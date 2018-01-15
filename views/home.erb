@@ -1,0 +1,34 @@
+<center>
+<script src= "/js/getdate.js"> 
+</script>
+<p id="date"> </p>
+<head>
+<title> Chris's Name Game</title>
+<link href="<%= url('/css/main.css') %>" rel= "stylesheet" type="text/css" />
+</head>
+<body>
+<div class="fname">
+<br>
+Wlecome to Chris's Name Game
+<br>
+<div class="firstname">
+<%
+name_hash = {"Tricia" => "Tricia_Hoover", "Christi" => "Christi_Richmond", "Jim" => "Jim_Fedders", 
+    	"Chris" => "Chris_Phillips", "Tyler" => "Tyler_Manspile", "Doug" => "Doug_Meador"}
+%>
+<br><br><br>
+<img alt="NameGame" src="/img/namegame.jpg" width="238" height="212" />
+<br>
+<form method="post" action="sandwich_choice">
+    <input type="text"  name="sandwich">
+    <br>
+    <br>
+    <input type="submit">
+    <br>
+    <br>
+</center>
+</body>
+</form>
+<script>
+	window.onload=getOrderDate('date');
+</script>
