@@ -1,0 +1,32 @@
+<center>
+<script src= "/js/getdate.js"> 
+</script>
+<p id="date"> </p>
+<head>
+<title>Name Game</title>
+<link href="<%= url('/css/main.css') %>" rel= "stylesheet" type="text/css" />
+</head>
+<body>
+<br>
+The name that you are looking for is:
+<br>
+<%
+name_hash = {"Tricia" => "Tricia Hoover", "Christi" => "Christi Richmond", "Jim" => "Jim Fedders", 
+        "Chris" => "Chris Phillips", "Tyler" => "Tyler Manspile", "Doug" => "Doug Meador"}
+%>
+<br>
+<img alt="namegame" src="/img/namegame.jpg" width="238" height="212" />
+<br>
+<br>
+<%= fname(fname) %>
+<br>
+This name is not in the list
+<br>
+Try another name
+<a href='//localhost:4567'>Go!</a>
+</center>
+</body>
+</form>
+<script>
+window.onload=getOrderDate('date');
+</script>

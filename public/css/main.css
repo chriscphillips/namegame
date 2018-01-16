@@ -1,18 +1,18 @@
 body {
-	color: blue;
-	background-image: url(/../imgs/blue.jpg);
-	font-size: 20;
+	background-color: salmon;
+	color: black;
+	font-size: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
-  	color: red;
-  	font-size: 18;
+  	color: black;
+  	font-size: 18px;
 }
 
 footer {
   	border-top: solid;
-  	border-color: hotpink;
+  	border-color: black;
   	text-align: center;
   	position: fixed;
   	bottom: 0;
@@ -31,4 +31,5 @@ footer {
 	/*position: absolute;
 	top: 25%;
 	transform: translateX(90%);
-	text-align: center;*/
+	text-align: center;
+}*/
